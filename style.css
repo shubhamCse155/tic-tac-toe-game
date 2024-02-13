@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color:#4a5759;
+    text-align: center;
+    
+}
+
+#heading{
+    width: 100vw;
+    height: 80px;
+    background-color:#000814;
+    font-size: 3rem;
+    color: #c9184a;
+    display: grid;
+    place-items: center;
+}
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.fullBox{
+    margin-top: 30px;
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    font-size: 8vmin;
+    color: #010101;
+    background-color: #e8eddf;
+    box-shadow: 2px 2px 2px 2px rgb(255, 255, 255);
+}
+
+#restart{
+    padding: 10px;
+    background: #02c39a;
+    font-size: medium;
+    border-radius: 5px;
+    border: none;
+    margin-top: 1.5rem;
+}
+#restart:hover {
+    box-shadow: 0 0 5px rgb(65, 229, 190);
+    cursor: pointer;
+
+}
+#win{
+    margin-top: 1rem;
+}
